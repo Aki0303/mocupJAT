@@ -23,6 +23,10 @@ h6 {
     font-weight: 700;
 }
 
+.photo-upload{
+    position: relative;
+}
+
 .topnav {
     font-size: 14px; 
 }
@@ -227,6 +231,11 @@ h6 {
     max-height: 300px;
 }
 
+.plan-content-profile{
+    height: 60px;
+    max-height:100px;
+}
+
 .plan-idea{
     text-align: left;
     padding-left: 30px;
@@ -235,8 +244,12 @@ h6 {
 }
 
 .plan-detail{
-    text-align: bottom;
+    text-align: center;
     border-bottom: 1px solid #e7e7e7;
+}
+
+.plan-detail-plan-list{
+    text-align: center;
 }
 
 .mypage-main {
@@ -388,15 +401,20 @@ h6 {
     font-size: 18px;
 }
 
-.favorite-number{
-    border-bottom: solid 1px #1e90ff;
+.position-fix-plan-list{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-align: left;
+    color: #1e90ff;
+    font-size: 20px;
+}
 }
 
 /*---------------------------ゴミ箱、編集アイコン設置完了--------------------------*/
-/*---------------------------マイページ旅路-------------------------------------*/
-.plans-title{
+/*---------------------------マイページ旅路(不具合修正のため無力化)-------------------------------------*/
+/*.plans-title{
     display: inline-flex;
-}
+}*/
 /*---------------------------マイページ旅路完了-------------------------------------*/
 
 
@@ -633,11 +651,16 @@ h6 {
 }
 
 .area-set{
-    padding-top:15px;
+    padding-top: 15px;
+}
+
+.photo-upload{
+    padding-top: 20px;
+    font-size: 13px;
 }
 
 .register-btn{
-    padding-top:15px;
+    padding-top: 15px;
 }
 
 /*----------------------<<END>>register------------------------*/
@@ -653,8 +676,8 @@ h6 {
     min-height: 275px;
 }
 
-.plan-explain{
-    padding: 0px 20px 0px 35px;
+.plan-title{
+    text-align: center;
 }
 
 /*----------------------<<END>>plan_list------------------------*/
