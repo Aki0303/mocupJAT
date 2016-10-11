@@ -252,6 +252,36 @@ h6 {
     text-align: center;
 }
 
+.favorite-user-list{
+    height: 42px;
+    min-width: 210px;
+    max-width: 200px;
+    border: solid 1px #dcdcdc;
+    margin-top: 5px;
+}
+
+.favorite-user-picture {
+    float: left;
+    margin-left: 2px;
+}
+
+.favorite-number{
+    margin-top: 25px;
+}
+
+img.favorite-user-picture {
+    width: 40px;
+    height: 40px;
+}
+
+.favorite-user-name-area{
+    float: left;
+    margin-left: 10px;
+    margin-top: 11px;
+    font-size: 12px;
+    word-wrap: break-word;
+}
+
 .mypage-main {
     background-color: #ffffff;
 }
@@ -289,7 +319,7 @@ h6 {
 }
 
 .banner-social-buttons {
-    float: right;
+    text-align: center;
     margin-top: 0;
 }
 
@@ -395,10 +425,19 @@ h6 {
 }
 
 .position-fix{
-    margin-top: 25px;
+    margin-top: 5px;
     margin-bottom: 10px;
     color: #1e90ff;
     font-size: 18px;
+    width:150px;
+}
+
+.position-fix-favoritenum{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    color: #1e90ff;
+    font-size: 18px;
+    min-width: 100px;
 }
 
 .position-fix-plan-list{
@@ -407,7 +446,45 @@ h6 {
     text-align: left;
     color: #1e90ff;
     font-size: 20px;
+    width: 300px;
 }
+
+.tag-favonum{
+    display: inline-block;
+}
+
+.edit-btn{
+    margin: 0 auto;
+    padding: 8px;
+    width: 150px;
+}
+
+.tag-content{
+    margin-left: 30px;
+    max-height: 100px;
+    max-width: 330px;
+}
+
+.tag-content-mypage{
+    max-height: 100px;
+    max-width: 250px;
+    max-width: 600px;
+    margin-left: 50px;
+    padding-right: 25px;
+    float: left;
+}
+
+.glyphicon-tags{
+    max-width: 600px;
+    word-wrap: break-word;
+    display: inline-block;
+    float: left;
+}
+
+.glyphicon-tags-mypage{
+    max-width: 200px;
+    word-wrap: break-word;
+    float: left;
 }
 
 /*---------------------------ゴミ箱、編集アイコン設置完了--------------------------*/
@@ -676,8 +753,23 @@ h6 {
     min-height: 275px;
 }
 
+.plans-title{
+    min-height: 150px;
+    max-height: 300px;
+}
+
 .plan-title{
     text-align: center;
+    word-wrap: break-word;
+    min-height: 50px;
+    max-height: 400px;
+}
+
+.plan-title-name{
+    min-height: 30px;
+    max-height: 100px;
+    word-wrap: break-word;
+    padding-left: 20px;
 }
 
 /*----------------------<<END>>plan_list------------------------*/
@@ -689,5 +781,6 @@ footer {
 }
 
 p.copyright {
+    text-align: center;
     margin: 15px 0 0;
 }
